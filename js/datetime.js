@@ -8,7 +8,6 @@ function getDate(){
     const month = date.getMonth() + 1;
     const day = date.getDate();
     dateTitle.innerText = `
-    
     ${year}년 ${month}월 ${day}일`;
 }
 
@@ -20,7 +19,6 @@ function getTime(){
     clockTitle.innerText = `${hours < 10 ? `0${hours}` : hours}:${
         minutes < 10 ? `0${minutes}` : minutes}:${
         seconds < 10 ? `0${seconds}` : seconds}
-        
         `;
     if (hours===24 && minutes===00 && seconds===00) {
         getDate();

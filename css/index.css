@@ -1,7 +1,7 @@
 body{
     color: white;
     padding: 0;
-    margin: 20px;
+    margin: 10px;
 }
 
 .form,
@@ -51,8 +51,8 @@ span {
 
 #nameForm {
     width: 25%;
-    margin-top: 0px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 #weather{
@@ -60,17 +60,17 @@ span {
     margin: 0;
     float: right;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 #pen {
     float: left;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 200px;
 }
 
 #fin {
     float: right;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-right: 200px;
 }
 
@@ -84,7 +84,7 @@ ul {
 
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     margin: 0px;
     padding: 0px;
 }
@@ -96,6 +96,6 @@ h2 {
 h4 {
     text-align: center;
     font-size: 35px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
