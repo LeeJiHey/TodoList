@@ -58,7 +58,7 @@ function getWeather(lat, lon) {
     .then(data => {
         const temp = data.main.temp;
         const weathers = data.weather[data.weather.length -1];
-        weatherSpan.innerHTML = `${temp}&#8451; ${weathers.main}`;
+        weatherSpan.innerHTML = `${temp}&#8451; ${weathers.main}<br>${data.name}`;
     })
 }
 
